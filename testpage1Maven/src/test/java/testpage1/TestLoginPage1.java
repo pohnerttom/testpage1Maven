@@ -16,7 +16,6 @@ public class TestLoginPage1 {
 	public By msgTxt1 = By.xpath("/html/body/div/div[1]/div");
 	public By msgTxt2 = By.xpath("/html/body/div/div[2]/div");
 	public By logoffButton = By.xpath("/html/body/div/div[2]/div/a/button");
-	// public By labelUser = By.xpath("/html/body/div/div/div/form/div[1]/label");
 	public WebDriver driver = new FirefoxDriver();
 
 	@Test
